@@ -1,0 +1,8 @@
+requests
+python-daemon
+pyyaml
+websocket-client
+slackclient
+gspread
+oauth2client
+PyOpenSSL

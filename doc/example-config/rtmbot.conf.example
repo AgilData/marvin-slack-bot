@@ -1,0 +1,5 @@
+# Change this slack token to a Slack Token that you create.  This Slack Token should be for your Slack server.  Multiple
+# instances of this bot may run - you will have to change this slack token accordingly for each server.
+#
+# Make sure to copy this to the root directory of the bot, and rename it to "rtmbot.conf"
+SLACK_TOKEN: "xoxb-111111111111-2222222222222222222"
