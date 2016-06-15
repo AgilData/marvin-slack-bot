@@ -4,7 +4,7 @@ This code was copied from the `python-rtmbot` repository in Github.
 
 Slight modifications were done to support a setup method with the current Slack client connection, and a few other miscellaneous
 updates.  Documentation has been provided in `plugins/repeat/repeat.py` in the form of in-code comments.  Other slight changes
-that were made are in the `rtmbot.py` script itself, which serves as a controller for the bot.
+that were made are in the `marvin.py` script itself, which serves as a controller for the bot.
 
 Testing was done via command line - it has not been tested against a Windows system or as a daemon.
 
@@ -44,8 +44,8 @@ Installation
 
 3. Configure rtmbot (https://api.slack.com/bot-users)
         
-```        cp doc/example-config/rtmbot.conf.example ./rtmbot.conf
-        vi rtmbot.conf
+```        cp doc/example-config-marvin/marvin.conf.example ./marvin.conf
+        vi marvin.conf
           SLACK_TOKEN: "xoxb-11111111111-222222222222222"```
 
 *Note*: At this point rtmbot is ready to run, however no plugins are configured.
